@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Design patterns in Python: Factory Pattern"
-date:   2024-06-07 12:00:00
+date:   2024-05-13 12:00:00
 categories: programming
 tags: design-patterns
 excerpt: design-patterns-in-python
