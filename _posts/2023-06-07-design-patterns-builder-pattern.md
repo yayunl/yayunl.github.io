@@ -4,6 +4,7 @@ title:  "Design patterns in Python: Builder Pattern"
 date:   2023-06-07 15:00:00
 categories: programming
 tags: design-patterns
+excerpt: Builder pattern in Python
 ---
 * content
 {:toc}

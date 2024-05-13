@@ -4,7 +4,7 @@ title:  "Design patterns in Python: Factory Pattern"
 date:   2023-06-07 12:00:00
 categories: programming
 tags: design-patterns
-excerpt: design-patterns-in-python
+excerpt: Factory pattern in Python
 mathjax: true
 ---
 
