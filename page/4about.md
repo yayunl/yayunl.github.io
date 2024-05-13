@@ -9,25 +9,29 @@ type: page
 * content
 {:toc}
 
-## 关于我
+## About me
 
 <!-- <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
 
+![Yayun](/assets/images/about_me.png)
+
+Welcome to my blog!
+
+I'm Yayun Liu, also known as Aaron. I reside in Austin, TX, together with my wife Wendy and our two sons, Jeremiah and Enoch.
+
+Professionally, I am a Principal System Engineer at Dell Technologies, focusing on network devices in Dell enterprise servers.
+
+In May 2023, I embarked on this blogging journey with the aim of documenting my learnings and sharing valuable insights with the community.
+
+While my spare time is limited, I cherish the few hobbies that I have.
 
 
-## 联系我
+## Contact me
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
-* [豆瓣](https://www.douban.com/people/42525035/)
-* [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
+* GitHub：[yayunl](https://github.com/yayunl)
+* email：yayunliu90@gmail.com
+* [Linkedin](https://www.linkedin.com/in/yayunliu1990/)
 
-## 友情链接
-
-[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
 
 ## Comments
 
