@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Probability and Statistics 1.0.0: Basics"
-date:   2024-04-24 12:00:00
+title:  "Probability and Statistics 1.5.1: The Central Limit Theorem (CLT)"
+date:   2024-05-01 12:00:00
 categories: machine-learning
 tags: probability-and-statistics
 excerpt: This post covers the Central Limit Theorem (CLT) in probability and statistics.
