@@ -5,7 +5,7 @@ date:   2024-04-24 12:00:00
 categories: machine-learning
 tags: probability-and-statistics
 excerpt: This post covers the basics of probability and statistics, including the classical approach and Bayes' theorem.
-#mathjax: true
+mathjax: true
 ---
 
 * content
