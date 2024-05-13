@@ -7,11 +7,12 @@
             {% if site.description_footer %} {{site.description_footer}} {% endif %}
         </p>
         <p class="contact">
-            Contact me at: {% if site.github_username %}
+            Contact me at:
+            {% if site.github_username %}
             <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %} {% if site.email %}
             <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %} {% if site.weibo_username %}
             <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> {% endif %} {% if site.dribbble_username %}
-
+            {% endif %}
         </p>
         <p>
             This site has been visited a total of <span id="busuanzi_value_site_pv"></span> times, with <span id="busuanzi_value_site_uv"></span> unique visitors, and this page has been viewed <span id="busuanzi_value_page_pv"></span> times
