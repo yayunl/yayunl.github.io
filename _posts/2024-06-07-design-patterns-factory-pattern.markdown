@@ -8,6 +8,9 @@ excerpt: design-patterns-in-python
 mathjax: true
 ---
 
+* content
+{:toc}
+
 # Introduction
 
 Design patterns are shared among programmers and continue to be improved over time, thanks to the *Gang of Four* book [**Design Patterns: Elements of Reusable Object-Oriented**](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. 
