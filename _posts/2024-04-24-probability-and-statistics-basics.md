@@ -33,8 +33,8 @@ where `h` is the number of ways an event can occur and `n` is the total number o
 ![Bayes-theorem](/assets/images/probability_and_statistics/bayes-theorem.png)
 
 A visual demonstration of Bayes' theorem is as follows. The theorem can be interpreted as calculating the percentage of the green area in the sum of the gray area:   
-    - $$ P(Ak)P(A|Ak) $$ finds the green area
-    - The sum of $$ P(Aj)P(A|Aj) (j=1,...,n) $$ is the grey area
+1. $$ P(Ak)P(A|Ak) $$ finds the green area   
+2. The sum of $$ P(Aj)P(A|Aj) (j=1,...,n) $$ is the grey area
 
 ![Bayes-theorem](/assets/images/probability_and_statistics/bayes-theorem-visual.png)
 
@@ -45,8 +45,8 @@ $$
 
 To visualize the equation, you can think of a 2x2 table where the rows representing A and A' respectively and the columns representing B and B'. 
 As shown in the following figure:   
-    - P(A) is the probability of the event A in the sample space. Denoted as the entire row of A in the figure.   
-    - P(B) is the probability of the event B in the sample space. Denote as the column of B in the figure.   
-    - P(A)P(B|A) is the probability of event B given event A occurs in the sample space and is denoted in the green area in the figure. Note that this area does not represent the probability of event B given event A. To calculate it, you need to cancel out the sample space by dividing P(B). 
+1. P(A) is the probability of the event A in the sample space. Denoted as the entire row of A in the figure.  
+2. P(B) is the probability of the event B in the sample space. Denote as the column of B in the figure.
+3. P(A)P(B|A) is the probability of event B given event A occurs in the sample space and is denoted in the green area in the figure. Note that this area does not represent the probability of event B given event A. To calculate it, you need to cancel out the sample space by dividing P(B). 
 
 ![Bayes-theorem](/assets/images/probability_and_statistics/bayes-theorem-visual2.png)
