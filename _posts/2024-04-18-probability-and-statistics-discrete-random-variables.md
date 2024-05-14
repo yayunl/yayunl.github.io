@@ -4,7 +4,7 @@ title:  "Probability and Statistics Basics 1.2.0: Discrete Random Variables"
 date:   2024-04-18 13:00:00
 categories: machine-learning
 tags: probability-and-statistics
-excerpt: This post covers the basics of descriptive statistics, including central tendency, dispersion, and quartiles.
+excerpt: This post covers the basics of discrete probability distribution, including the probability mass function, cumulative distribution function, expected value, variance, and standard deviation.
 mathjax: true
 ---
 
@@ -15,15 +15,14 @@ mathjax: true
 # Discrete probability distribution (离散概率分布)
 The *discrete probability distribution* is a type of probability distribution that shows all possible values of a discrete random variable along with the associated probabilities. In other words, a discrete probability distribution gives the likelihood of occurrence of each possible value of a discrete random variable.
 
-
 ## Properties
 A discrete probability distribution has the following properties:
 1. $$ 0 ≤ P(X = x) ≤ 1 $$. This implies that the probability of a discrete random variable, X, taking on an exact value, x, lies between 0 and 1.
-2. $$ \sum P(X=x) =1 $$. The sum of all probabilities must be equal to 1.
+2. $$ \sum P(X=x) =1 $$. The sum of all probabilities must be equal to 1.  
+
 
 # Descriptive functions
 There are two main functions can be used to describe a discrete probability distribution: the *probability mass function* (PMF) and the *cumulative distribution function* (CDF).
-
 
 ## Probability mass function (PMF) (概率质量函数)  
 The probability mass function can be defined as a function that gives the probability of a discrete random variable, X, being exactly equal to some value, x. This function is required when creating a discrete probability distribution. The formula is given as follows:  
@@ -78,10 +77,12 @@ The *standard deviation* can be found by taking the square root of the variance.
 * $$ E(aX + b) = aE(X) + b $$ (1)
 * $$ Var(aX + b) = a^2 Var(X) $$ (2)
 
-Proof of (1):
+Proof of (1):   
+
 ![proof-linear-transformation](/assets/images/probability_and_statistics/linear-transformation-proof1.png)
 
-Proof of (2):
+Proof of (2):   
+
 ![proof-linear-transformation](/assets/images/probability_and_statistics/linear-transformation-proof2.png)
 
 
