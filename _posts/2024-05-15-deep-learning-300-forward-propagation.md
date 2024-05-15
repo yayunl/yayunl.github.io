@@ -6,6 +6,7 @@ categories: machine-learning deep-learning
 tags: deep-learning
 excerpt: This post discusses about the forward propagation process of a neural network.
 mathjax: true
+use_mermaid: true
 ---
 
 * content
