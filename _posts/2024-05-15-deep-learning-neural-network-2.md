@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deep Learning 2.0.1: Neural Networks"
+title:  "Deep Learning 2.0.1: Activation Functions"
 date:   2024-05-15 12:00:00
 categories: machine-learning deep-learning
 tags: deep-learning
@@ -20,10 +20,10 @@ In Figure 3-1, the 0th layer corresponds to the input layer, the 1st layer corre
 ![feedforward neural network](/assets/images/deep_learning/200/neural-network-example.png)
 
 # Activation functions
-In a neural network, the _activation function_ $$ h(x) $$ receives the weighted sum of the inputs $$ z = w_1x_1 + w_2x_2 + \ldots + w_nx_n + b$$ and decides whether the neuron should be activated or not. 
+In a neural network, the _activation function_ $$ h(x) $$ receives the weighted sum of the inputs and biases $$ a = w_1x_1 + w_2x_2 + \ldots + w_nx_n + b$$ and decides whether the neuron should be activated or not. 
 The activation function introduces non-linearity to the neural network, allowing it to learn complex patterns in the data. The following diagram shows the computation of an activation function:
-![activation function](/assets/images/deep_learning/200/activation-function-compute.png)
-The weighted sum of the inputs and the bias is denoted in node _a_, then it is passed through the activation function $$ h(x) $$ to produce the output $$ y $$.
+![activation function](/assets/images/deep_learning/200/activation-func-compute.png)
+The weighted sum of the inputs and the bias is denoted in node _a_, then it is passed through the activation function $$ h(x) $$ to produce the output $$ z $$.
 
 ## Types of activation functions
 
