@@ -4,7 +4,7 @@ title:  "Deep Learning 1.0.0: The basics about the perceptron"
 date:   2024-05-14 12:00:00
 categories: machine-learning deep-learning
 tags: deep-learning
-excerpt: This post covers the basics about the perceptron in deep learning.
+excerpt: This post covers the basics about the concept of perceptron in deep learning.
 mathjax: true
 ---
 
