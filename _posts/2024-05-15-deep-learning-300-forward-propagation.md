@@ -21,10 +21,4 @@ The following diagram shows the computation of a feedforward neural network:
 ![feedforward neural network](/assets/images/deep_learning/300/forward-pass.png)
 
 # Flow of Forward Propagation
-{% mermaid %}
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-{% endmermaid %}
+<div class="mermaid"> graph TD; A-->B; A-->C; B-->D; C-->D; </div>

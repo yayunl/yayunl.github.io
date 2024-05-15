@@ -46,11 +46,10 @@ excerpt_separator: "\n\n\n\n"
 gems: [jekyll-paginate]
 paginate: 10
 
-# mermaid
-mermaid:
-  src: "assets/js/mermaid.js"
+## mermaid
+#mermaid:
+#  src: "assets/js/mermaid.js"
 
 plugins:
   - jekyll-paginate
-  - jekyll-mermaid
 
