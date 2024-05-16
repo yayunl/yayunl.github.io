@@ -18,7 +18,7 @@ _Forward propagation_ is the process of moving the input data through the neural
 The input data is multiplied by the weights and biases, and passed through the activation function to produce the output. This process is repeated for each layer in the neural network until the final output is produced.
 The following diagram shows the computation of a feedforward neural network:
 
-<p align="center">![feedforward neural network](/assets/images/deep_learning/300/forward-propagation.png)</p>
+![feedforward neural network](/assets/images/deep_learning/300/forward-propagation.png)
 
 # Steps in Forward Propagation
 The forward propagation process in a neural network involves the following steps:
