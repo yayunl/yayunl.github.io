@@ -145,7 +145,7 @@ dy += ((1 - sigy) * sigy) * dsigy                                 #(1)
 Code reference: [CS231n-optimization-2](https://cs231n.github.io/optimization-2/)  
 
 ### Illustration
-![CGM example](../assets/images/deep_learning/301/cgm-example.png)  
+![CGM example](/assets/images/deep_learning/301/cgm-example.png)  
 
 # Conclusion
 > - We developed intuition for what the gradients mean, how they flow backwards in the circuit, and how they communicate which part of the circuit should increase or decrease and with what force to make the final output higher. 
