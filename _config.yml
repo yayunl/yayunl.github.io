@@ -7,7 +7,7 @@
 
 # Site settings
 title: Yayun Liu's Blog
-brief-intro: Engineer, Blogger, Learner
+brief-intro: Engineer, Blogger, Learner, Runner
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yayunl.github.io" # the base hostname & protocol for your site
 
