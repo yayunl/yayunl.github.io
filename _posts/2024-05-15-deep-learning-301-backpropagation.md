@@ -102,7 +102,7 @@ The general formula for calculating the gradients using the computational graph 
 ![patterns in gradient flow](/assets/images/deep_learning/301/gradient-pattern.png)  
 
 
-## Code Implementation and illustration
+## Code implementation and illustration
 
 ### Python code
 The following Python code snippet demonstrates the backpropagation process in a neural network for a simple example:
