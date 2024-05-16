@@ -34,6 +34,18 @@ Multiple signals arrive at the dendrites and are then integrated into the cell b
 An artificial neuron is a mathematical function based on a model of biological neurons, where each neuron takes inputs, weighs them separately, sums them up and passes this sum through a nonlinear function to produce output.
 ![Artificial-Neuron](/assets/images/deep_learning/100/evolution.png)
 
+![Evolution](/assets/images/deep_learning/100/evolution2.png)   
+Slide reference: [CS231n-lecture4-2024](https://cs231n.stanford.edu/)
+
+**Note**: The artificial neuron is a simplified model of the biological neuron. Biological neurons are much more complex and have many more components than artificial neurons.   
+Biological Neurons:   
+- Many different types
+- Dendrites can perform complex non-linear computations
+- Synapses are not a single weight but a complex non-linear dynamical system
+
+
+
+
 # Perceptron
 *Perceptron* was introduced by [Frank Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt) in 1957. He proposed a Perceptron learning rule based on the original MCP neuron. 
 A Perceptron is an algorithm for supervised learning of binary classifiers. This algorithm enables neurons to learn and processes elements in the training set one at a time.
