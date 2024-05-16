@@ -56,35 +56,35 @@ The gradients of the loss function with respect to the weights and biases are ca
 A typical method is the **mathematical technique** using the chain rule. This approach needs lots of matrix calculus and is prone to errors. It is not easy to implement for complex neural networks.
 A better approach is to use the **computational graph** method. This method is more intuitive and easier to implement.
 
-## Computational graph method
-There are two main steps involved in calculating the gradients using the **computational graph method**:
+## Computational graph method (CGM)
+There are three main steps involved in calculating the gradients using the **computational graph method**:
 1. Calculate the _local gradient_: The local gradient is the derivative of the output with respect to its inputs.
 2. Inherit the _upstream gradient_: The upstream gradient is inherited and is already calculated in the previous layer. 
 3. _Multiply_ the local gradient by the upstream gradient to get the downstream gradient. This is according to the chain rule of calculus.   
 
 **Note**: The calculation of the gradients is done in the reverse order of the _forward propagation_ process. Hence, the process is called _backpropagation_.
 
-## A simple example
+## Explain CGM with a simple example
 Consider a simple example as follows:
 $$
 f(x,y,z) = (x+y)z
 $$
 We want to calculate the gradient of f with respect to x, y, and z: dx, dy, dz.  
 
-### $ \frac{df}{df} $
+### Calculating $ \frac{df}{df} $
 ![dfdf](/assets/images/deep_learning/301/dfdf.png)
 
-### $ \frac{df}{dz} $
+### Calculating $ \frac{df}{dz} $
 ![dfdz](/assets/images/deep_learning/301/dfdz.png)
 
-### $ \frac{df}{dq} $   
+### Calculating $ \frac{df}{dq} $   
 ![dfdq](/assets/images/deep_learning/301/dfdq.png)
 
-### $ \frac{df}{dx} $   
+### Calculating $ \frac{df}{dx} $   
 ![dfdx](/assets/images/deep_learning/301/dx.png)  
 
-### $ \frac{df}{dy} $   
-![dfdy](/assets/images/deep_learning/301/dy.png)
+### Calculating $ \frac{df}{dy} $   
+![dfdy](/assets/images/deep_learning/301/dfdy.png)
 
 
 ## General formula  
