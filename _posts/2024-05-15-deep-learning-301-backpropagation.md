@@ -19,7 +19,7 @@ As it's shown in the following diagram, backpropagation involves calculating the
 and then using this error to update the weights and biases of the network (step 3). 
 This process is repeated for each layer in the network until the error is minimized.
 
-<p align="center">![backpropagation](/assets/images/deep_learning/300/forward_propagation.png)</p>
+<p align="center">![backpropagation](/assets/images/deep_learning/301/backpropagation.png)</p>
 
 # Steps in Backpropagation
 The backpropagation process in a neural network involves the following steps:
