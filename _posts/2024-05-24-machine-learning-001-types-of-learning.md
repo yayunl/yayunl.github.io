@@ -24,20 +24,23 @@ Machine Learning can be classified into three types:
 ## Supervised Learning
 
 ### Feature vector and features
-In _supervised learning_, the _dataset_ is the collection of _labeled examples_ $\{(X_i, y_i)\{$, where $i=1,2,..., N$. Each element $X_i$ is called a _feature vector_.
-A _feature vector_ is a vector of _features_ that represent the input data. Each _feature_ describes the element somehow and is denoted as $x^{(j)}$. 
-You can think a _feature vector_ ${X_i}$ as a row in a table, where each column represents a different feature $x^{(j)}$. The entire table is the _dataset_.
-If the _dataset_ is a collection of people, a _feature vector_ ${X_i}$ is a row in the table, representing a person. 
-Each column represents a different feature of the person, such as age $x^{(0)}$, height $x^{(1)}$, weight $x^{(2)}$, etc.   
+In _supervised learning_, the _dataset_ is the collection of _labeled examples_ $\{(X_i, y_i)\}$, where $i=1,2,..., N$. 
+Each element $X_i$ is called a _feature vector_. A _feature vector_ is a vector of _features_ that represent the input data. 
+Each _feature_, denoted as $x^{(j)}$, describes the element somehow.    
+
+You can think a _feature vector_ ${X_i}$ as a row in a table, where each column represents a different feature $x^{(j)}$. The entire table is the _dataset_.   
+For instance, a _dataset_ could be a table of people, a _feature vector_ ${X_i}$ is a row in the table, representing a person. 
+Each column represents a different feature of the person, such as height $x^{(0)}$, weight $x^{(1)}$, gender $x^{(2)}$, etc.   
 
 ![features](/assets/images/ML/001/feature-vector.png)
 
 ### Label
 The label $y_i$ is the _target_ or _output_ of the model. It is the value that the model is trying to predict. The label can be
-either an element belonging to a _finite set_ (classification) or a _real number_ (regression). It could also be a more complex structure like a _sequence_ or a _graph_.
+either an element belonging to a _finite set_ (classification) or a _real number_ (regression). It could also be a more complex structure like a _sequence_ or a _graph_.    
+
 For example, if the dataset is a collection of email messages and your task is to detect spam emails, then the label $y_i$ has two classes: _spam_ and _not spam_.
 
-### The goal of supervised learning
+### Goal
 The goal of _supervised learning_ is to learn a function $f$ (aka. **model**) that maps the input feature vector $X_i$ to the output label $y_i$. 
 For example, the model created using the dataset of people can take as input a feature vector representing a person and output a probability that the person has a certain disease.
 
@@ -55,9 +58,11 @@ In **outlier detection**, the model identifies the data points that are signific
 In _reinforcement learning_, the machine learns by interacting with an environment. The environment is represented by a _state_ $s$. The machine can 
 take an _action_ $a$ that changes the state of the environment. The environment responds with a _reward_ $r$ and a new state $s'$. 
 
-### The goal of reinforcement learning
+### Goal
 The goal of the machine is to learn a _policy_ $\pi$ that maps the state $s$ to the action $a$. The _policy_ is a function that tells the machine what action to take in each state.
-The action is optimal if it maximizes the expected average reward.
+The action is optimal if it maximizes the expected average reward. 
+
+
 
 # How supervised learning works
 The supervised learning process consists of the following steps:
@@ -74,7 +79,7 @@ The outputs are usually real numbers or labels. In some cases, the output could 
 
 For example, say you gathered 10,000 email messages, each with a label either _spam_ or _not spam_. Now, you need to convert each email message into a feature vector.
 One common way to convert text data into a feature vector is to use the _bag-of-words_ representation. In this representation, each word in the email message is a feature.
-The _feature vector_, in this case an email, is a binary vector where each element is 1 if the word is present in the email message and 0 otherwise:
+The _feature vector_, namely an email, is a binary vector where each element is 1 if the word is present in the email message and 0 otherwise:
 
 ![features](/assets/images/ML/001/bag-of-words.png)
 
