@@ -18,11 +18,19 @@ CNNs are widely used in computer vision tasks such as image classification, obje
 In this post, we will explain the architecture of a CNN and how it works.
 
 
-# Convolutions
+# Convolution
 Before we dive into CNNs, let's first understand the concept of _convolutions_. 
-A convolution is an operation that takes two functions $f$ and $g$ and produces a third function that represents how the shape of $g$ is modified by $f$. 
+A _convolution_ operation involves two functions $f$ and $g$ and the _sliding_ of one over the other. If the functions are $f(x)$ and $g(x)$, convolution is defined as:  
+<p align="center">$$(f*g)(t)\equiv\int_{-\infty}^{\infty}f(\tau)g(t-\tau)d\tau$$</p>  
 
-The convolution can be explained by sliding the _kernel_ or _filter_ by a given strikes of $k$ over the input data $x$ and computing the dot product of the slided area of the input data and the filter $w$.
+## Convolution in one dimension
+The following figure shows a plot on the bottom and two sets of numbers labeled $f$ and $g$ on the top. The plot shows the result of the convolution of $f$ and $g$.
+![Convolution](/assets/images/ML/004/convolution_1d.png)  
+The first row lists the discrete values of the function $f$ and the second row lists the discrete values of the function $g$. The third row shows the result of the convolution of $f$ and $g$.
+For example, the first element of the result, 13, is the sum of the element-wise multiplication of the first element of $f$ and the first element of $g$:
+$$[2, 6, 15] \circledast [-1, 0, 1] = 2\cdot (-1) + 6 \cdot 0 + 15 \cdot 1 = 13 $$
+
+The convolution can be explained by sliding the _kernel_ or _filter_ of a given strikes of $k$ over the input data $x$ and computing the dot product of the slided area of the input data and the filter $w$.
 The computation of the dot product is simply the element-wise multiplication of the two matrices and then summing the results. The result is then stored in the output matrix $y$.
 When the _filter_ is slided over the entire input data, the output matrix $y$ is produced and is considered as the output of the convolution operation.  
 
