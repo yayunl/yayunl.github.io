@@ -30,9 +30,12 @@ The first row lists the discrete values of the function $f$ and the second row l
 For example, the first element of the result, 13, is the sum of the element-wise multiplication of the first element of $f$ and the first element of $g$:
 $$[2, 6, 15] \circledast [-1, 0, 1] = 2\cdot (-1) + 6 \cdot 0 + 15 \cdot 1 = 13 $$
 
+
+## Convolution in two dimensions
 The convolution can be explained by sliding the _kernel_ or _filter_ of a given strikes of $k$ over the input data $x$ and computing the dot product of the slided area of the input data and the filter $w$.
 The computation of the dot product is simply the element-wise multiplication of the two matrices and then summing the results. The result is then stored in the output matrix $y$.
 When the _filter_ is slided over the entire input data, the output matrix $y$ is produced and is considered as the output of the convolution operation.  
+![Convolution-dynamic](https://stanford.edu/~shervine/teaching/cs-230/illustrations/convolution-layer-a.png)
 
 ![Convolution](/assets/images/ML/004/convolution2.png)
 
