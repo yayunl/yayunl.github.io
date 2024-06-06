@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Machine Learning 0.0.0: Machine Learning 101"
+date:   2024-06-06 12:00:00
+categories: machine-learning 
+tags: machine-learning
+excerpt: This post contains a slide deck that explains basic concepts of Machine Learning with a focus on nueural networks.
+mathjax: true
+use_mermaid: true
+---
+
+* content
+{:toc}
+
+
+![Machine Learning](/assets/images/ML/000/001.png)
+
+![002](/assets/images/ML/000/002.png)
+
+![003](/assets/images/ML/000/003.png)
+
+![004](/assets/images/ML/000/004.png)
+
+![005](/assets/images/ML/000/005.png)
+
+![006](/assets/images/ML/000/006.png)
+
+![007](/assets/images/ML/000/007.png)
+
+![008](/assets/images/ML/000/008.png)
+
+![009](/assets/images/ML/000/009.png)
+
+![010](/assets/images/ML/000/010.png)
+
+![011](/assets/images/ML/000/011.png)
+
+![012](/assets/images/ML/000/012.png)
+
+![013](/assets/images/ML/000/013.png)
+
+![014](/assets/images/ML/000/014.png)
+
+![015](/assets/images/ML/000/015.png)
+
+![016](/assets/images/ML/000/002.png)
+
