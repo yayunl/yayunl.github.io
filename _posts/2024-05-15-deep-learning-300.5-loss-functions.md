@@ -16,7 +16,7 @@ use_mermaid: true
 # Logistic Regression loss function $L(y, \hat{y})$
 The _logistic loss function_, also known as the _cross-entropy loss function_, is commonly used in binary classification problems. 
 It measures the difference between the predicted probability distribution and the actual distribution of the target variable. The formula for the logistic loss function is given by:
-$$ L(y, \hat{y}) = -\ y \log(\hat{y}) + (1 - y) \log(1 - \hat{y}) $$
+$$ L(y, \hat{y}) =  y \log(\hat{y}) + (1 - y) \log(1 - \hat{y}) $$   
 where: 
 - $y$ is the true label of the example,
 - $\hat{y}$ is the predicted probability of the example belonging to the positive class.
