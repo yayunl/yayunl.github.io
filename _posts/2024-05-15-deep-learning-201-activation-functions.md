@@ -92,3 +92,9 @@ softmax(x)
 
 ### Common activation functions
 ![activation functions](/assets/images/deep_learning/200/activation-functions.png)
+
+![activation functions2](/assets/images/deep_learning/200/activation_functions_andrew_ng.png)
+
+
+# References
+1. [Andrew Ng's Neural Networks and Deep Learning Course](https://www.coursera.org/learn/neural-networks-deep-learning)
