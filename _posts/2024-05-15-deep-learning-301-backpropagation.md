@@ -153,10 +153,14 @@ The _gradient descent_ algorithm is used to update the weights and biases of a n
 
 ![gradient descent](/assets/images/deep_learning/301/gradient_descent_andrew_ng.png)
 
-![gradient descent](/assets/images/deep_learning/301/gradient_descent_2_andrew_ng.png)
+![gradient descent2](/assets/images/deep_learning/301/gradient_descent_2_andrew_ng.png)
 
+Applying the _gradient descent_ algorithm on m examples:
+![gradient_descent_m_examples.png](/assets/images/deep_learning/301/gradient_descent_m_examples.png)
 
-Source: [Andrew Ng's Neural Networks and Deep Learning Course](https://www.coursera.org/learn/neural-networks-deep-learning)
+## Code implementation
+![Code](../assets/images/deep_learning/301/gradient_descent_code_implementation.png)
+
 # Conclusion
 > - We developed intuition for what the gradients mean, how they flow backwards in the circuit, and how they communicate which part of the circuit should increase or decrease and with what force to make the final output higher. 
 > - We discussed the importance of **staged computation** for practical implementations of backpropagation. You always want to break up your function into modules for which you can easily derive local gradients, and then chain them with chain rule. Crucially, you almost never want to write out these expressions on paper and differentiate them symbolically in full, because you never need an explicit mathematical equation for the gradient of the input variables. _Hence, decompose your expressions into _stages_ such that you can differentiate every stage independently (the stages will be matrix vector multiplies, or max operations, or sum operations, etc.) and then backprop through the variables one step at a time._
@@ -164,3 +168,4 @@ Source: [Andrew Ng's Neural Networks and Deep Learning Course](https://www.cours
 # References
 - [CS231n-optimization-2](https://cs231n.github.io/optimization-2/)
 - [Lecture 4, CS231n 2024](https://cs231n.stanford.edu/slides/2024/lecture_4.pdf)
+- [Andrew Ng's Neural Networks and Deep Learning Course](https://www.coursera.org/learn/neural-networks-deep-learning)
