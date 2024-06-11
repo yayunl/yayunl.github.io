@@ -43,5 +43,5 @@ use_mermaid: true
 
 ![015](/assets/images/ML/000/015.png)
 
-![016](/assets/images/ML/000/002.png)
+
 

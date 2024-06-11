@@ -34,6 +34,9 @@ Each column represents a different feature of the person, such as height $x^{(0)
 
 ![features](/assets/images/ML/001/feature-vector.png)
 
+![notation](/assets/images/ML/001/notation_andrew.png)   
+Source: [Andrew Ng's Neural Networks and Deep Learning Course](https://www.coursera.org/learn/neural-networks-deep-learning)
+
 ### Label
 The label $y_i$ is the _target_ or _output_ of the model. It is the value that the model is trying to predict. The label can be
 either an element belonging to a _finite set_ (classification) or a _real number_ (regression). It could also be a more complex structure like a _sequence_ or a _graph_.    
