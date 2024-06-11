@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Machine Learning 0.0.0: Machine Learning 101"
-date:   2024-06-06 12:00:00
+date:   2024-05-23 12:00:00
 categories: machine-learning 
 tags: machine-learning
-excerpt: This post contains a slide deck that explains basic concepts of Machine Learning with a focus on nueural networks.
+excerpt: This post contains a slide deck that explains basic concepts of Machine Learning with a focus on Nueural Networks.
 mathjax: true
 use_mermaid: true
 ---

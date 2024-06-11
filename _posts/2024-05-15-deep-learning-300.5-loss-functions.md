@@ -13,14 +13,21 @@ use_mermaid: true
 {:toc}
 
 
-# Logistic Regression cost function
-The _logistic loss function_, also known as the _cross-entropy loss function_, is commonly used in binary classification problems. It measures the difference between the predicted probability distribution and the actual distribution of the target variable. The formula for the logistic loss function is given by:
-$$ L(y, \hat{y}) = -\frac{1}{N} \sum_{i=1}^{N} y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) $$
+# Logistic Regression loss function $L(y, \hat{y})$
+The _logistic loss function_, also known as the _cross-entropy loss function_, is commonly used in binary classification problems. 
+It measures the difference between the predicted probability distribution and the actual distribution of the target variable. The formula for the logistic loss function is given by:
+$$ L(y, \hat{y}) = -\ y \log(\hat{y}) + (1 - y) \log(1 - \hat{y}) $$
 where: 
-- $y_i$ is the true label of the $i$-th example,
-- $\hat{y}_i$ is the predicted probability of the $i$-th example belonging to the positive class,
-- $N$ is the total number of examples.
+- $y$ is the true label of the example,
+- $\hat{y}$ is the predicted probability of the example belonging to the positive class.
 
-## Cost function $J(w, b)$
-![logistic loss function](/assets/images/deep_learning/300_5/log_loss_andrew.png)
-Source: [Andrew Ng's Neural Networks and Deep Learning Course](https://www.coursera.org/learn/neural-networks-deep-learning)
+## Logistic loss function explained
+![logistic loss function](/assets/images/deep_learning/300_5/log_loss_explained.png)
+
+
+# Cost function $J(w, b)$
+![logistic loss function](/assets/images/deep_learning/300_5/log_loss_to_cost_function1.png)
+![logistic loss function](/assets/images/deep_learning/300_5/log_loss_to_cost_function2.png)
+
+# References   
+1. [Andrew Ng's Neural Networks and Deep Learning Course](https://www.coursera.org/learn/neural-networks-deep-learning)
