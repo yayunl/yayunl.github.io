@@ -3,7 +3,7 @@ layout: post
 title:  "Deep Learning 2.0.1: Activation Functions"
 date:   2024-05-15 12:00:00
 categories: machine-learning deep-learning
-tags: deep-learning
+tags: neural-networks
 excerpt: This post discusses about the activation functions with Python implementations.
 mathjax: true
 ---

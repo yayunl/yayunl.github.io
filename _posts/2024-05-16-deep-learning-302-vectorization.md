@@ -26,11 +26,11 @@ Note: Avoid using explicit for-loops in Python when possible, as they are slow c
 
 # Vectorization Examples
 
-![Example.png](../assets/images/deep_learning/302/example.png)
+![Example.png](/assets/images/deep_learning/302/example.png)
 
-![Example2.png](../assets/images/deep_learning/302/example2.png)
+![Example2.png](/assets/images/deep_learning/302/example2.png)
 
-![Example3.png](../assets/images/deep_learning/302/example3.png)
+![Example3.png](/assets/images/deep_learning/302/example3.png)
 
 
 # References

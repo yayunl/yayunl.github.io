@@ -3,7 +3,7 @@ layout: post
 title:  "Deep Learning 2.0.0: Neural Networks"
 date:   2024-05-15 12:00:00
 categories: machine-learning deep-learning
-tags: deep-learning
+tags: nueral-networks
 excerpt: This post covers the basics about the neural networks.
 mathjax: true
 ---

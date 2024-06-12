@@ -2,7 +2,7 @@
 layout: post
 title:  "Machine Learning 0.0.1: Introduction to Machine Learning"
 date:   2024-05-24 12:00:00
-categories: machine-learning 
+categories: machine-learning
 tags: machine-learning
 excerpt: This post explains the types of machine learning and how the supervised learning works.
 mathjax: true

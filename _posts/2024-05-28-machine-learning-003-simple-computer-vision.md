@@ -2,8 +2,8 @@
 layout: post
 title:  "Machine Learning 0.0.3: Introduction to Computer Vision"
 date:   2024-05-28 14:00:00
-categories: machine-learning 
-tags: machine-learning
+categories: machine-learning deep-learning 
+tags: neural-networks
 excerpt: This post describes how to create a simple computer vision neural network using the Fashion MNIST dataset.
 mathjax: true
 use_mermaid: true

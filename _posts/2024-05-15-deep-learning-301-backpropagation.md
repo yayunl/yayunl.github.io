@@ -3,7 +3,7 @@ layout: post
 title:  "Deep Learning 3.0.1: Backpropagation"
 date:   2024-05-16 14:00:00
 categories: machine-learning deep-learning
-tags: deep-learning
+tags: neural-networks
 excerpt: This post discusses about the back propagation process of a neural network. Python code implementation is also provided.
 mathjax: true
 use_mermaid: true
@@ -159,7 +159,7 @@ Applying the _gradient descent_ algorithm on m examples:
 ![gradient_descent_m_examples.png](/assets/images/deep_learning/301/gradient_descent_m_examples.png)
 
 ## Code implementation
-![Code](../assets/images/deep_learning/301/gradient_descent_code_implementation.png)
+![Code](/assets/images/deep_learning/301/gradient_descent_code_implementation.png)
 
 # Conclusion
 > - We developed intuition for what the gradients mean, how they flow backwards in the circuit, and how they communicate which part of the circuit should increase or decrease and with what force to make the final output higher. 

@@ -3,7 +3,7 @@ layout: post
 title:  "Deep Learning 3.0.0: Forward Propagation"
 date:   2024-05-15 13:00:00
 categories: machine-learning deep-learning
-tags: deep-learning
+tags: neural-networks
 excerpt: This post discusses about the forward propagation process of a neural network. Python code implementation is also provided.
 mathjax: true
 use_mermaid: true

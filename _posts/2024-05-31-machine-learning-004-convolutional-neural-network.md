@@ -2,8 +2,8 @@
 layout: post
 title:  "Machine Learning 0.0.4: Introduction to Convolutional Neural Network (CNN)"
 date:   2024-05-31 14:00:00
-categories: machine-learning 
-tags: machine-learning
+categories: machine-learning deep-learning
+tags: CNN
 excerpt: This post explains the key concepts involved at Convolutional Neural Network (CNN).
 mathjax: true
 use_mermaid: true
