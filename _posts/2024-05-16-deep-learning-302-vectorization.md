@@ -25,6 +25,7 @@ Note: Avoid using explicit for-loops in Python when possible, as they are slow c
 ![vectorization](/assets/images/deep_learning/302/avoid_forloop.png)
 
 # Vectorization Examples
+![Example.png](/assets/images/deep_learning/302/vectorization-drawing.png)
 
 ![Example.png](/assets/images/deep_learning/302/example.png)
 

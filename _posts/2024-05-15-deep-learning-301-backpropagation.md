@@ -155,10 +155,12 @@ The _gradient descent_ algorithm is used to update the weights and biases of a n
 
 ![gradient descent2](/assets/images/deep_learning/301/gradient_descent_2_andrew_ng.png)
 
-Applying the _gradient descent_ algorithm on m examples:
+## Implementing gradient descent
+
+### Explicit for-loop
 ![gradient_descent_m_examples.png](/assets/images/deep_learning/301/gradient_descent_m_examples.png)
 
-## Code implementation
+### Vectorization
 ![Code](/assets/images/deep_learning/301/gradient_descent_code_implementation.png)
 
 # Conclusion
