@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep Learning 4.0.3: Case studies in CNN"
-date:   2024-06-28 11:25:00
+date:   2024-06-29 11:25:00
 categories: machine-learning deep-learning
 tags: CNN
 excerpt: This post shows some case studies in CNN such as LeNet-5, AlexNet, VGG, ResNet, and GoogleNet.
