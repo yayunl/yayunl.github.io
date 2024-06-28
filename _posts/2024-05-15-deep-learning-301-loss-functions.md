@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deep Learning 3.0.0.5: Loss Functions"
+title:  "Deep Learning 3.0.1: Loss Functions"
 date:   2024-05-16 10:00:00
 categories: machine-learning deep-learning
 tags: deep-learning

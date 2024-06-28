@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Deep Learning 3.0.2: Vectorization"
-date:   2024-05-16 18:00:00
+title:  "Deep Learning 1.0.0.7: Vectorization"
+date:   2024-05-14 14:05:00
 categories: machine-learning deep-learning
 tags: deep-learning
 excerpt: This post discusses about the vectorization process in deep learning. Python code implementation is also provided.

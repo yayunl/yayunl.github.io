@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deep Learning 4.0.0: Introduction to Convolutional Neural Network (CNN)"
+title:  "Deep Learning 4.0.0: Convolutional Neural Network (CNN)"
 date:   2024-05-31 14:00:00
 categories: machine-learning deep-learning
 tags: CNN

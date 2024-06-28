@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Deep Learning 2.0.0.5: Neural Networks Representation and Implementation"
-date:   2024-05-15 12:05:00
+title:  "Deep Learning 1.0.0.4: Neural Networks Representation"
+date:   2024-05-14 12:05:00
 categories: machine-learning deep-learning
 tags: neural-networks
 excerpt: This post covers the representation and vectorization of neural networks.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deep Learning 3.0.1: Backpropagation"
+title:  "Deep Learning 3.0.2: Backpropagation"
 date:   2024-05-16 14:00:00
 categories: machine-learning deep-learning
 tags: neural-networks

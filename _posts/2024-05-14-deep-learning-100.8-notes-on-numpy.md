@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Deep Learning 3.0.3: Notes on Python numpy vectors"
-date:   2024-05-17 18:00:00
+title:  "Deep Learning 1.0.0.8: Notes on Python numpy vectors"
+date:   2024-05-14 14:10:00
 categories: machine-learning deep-learning
 tags: neural-networks
 excerpt: This post gives some notes on Python numpy vectors.
