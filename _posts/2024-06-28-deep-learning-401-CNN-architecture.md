@@ -15,9 +15,13 @@ use_mermaid: true
 # Convolution Layer
 The convolution layer is the first layer in a Convolutional Neural Network (CNN). It is responsible for extracting features from the input image. The convolution layer consists of a set of filters that are convolved with the input image to produce feature maps. Each filter is a small matrix that is applied to the input image using a sliding window. The filter is moved across the input image, and at each position, the dot product of the filter and the input image is computed to produce a single value in the feature map. This process is repeated for each filter in the convolution layer to produce multiple feature maps.
 
-# Illustration of CNN Architecture
+# A simple CNN Architecture
 ![Convolution-layer](/assets/images/deep_learning/402/convolution-layer.png)
 
 
+# Another simple CNN architecture
+![CNN Architecture](/assets/images/deep_learning/401/architecture-andrew.png)
+
 # References
 - [StatQuest: Neural Networks Part 8: Image Classification with Convolutional Neural Networks (CNNs)](https://youtu.be/HGwBXDKFk9I)
+- [Andrew Ng's C4W1L10 CNN Example](https://youtu.be/bXJx7y51cl0?feature=shared)
