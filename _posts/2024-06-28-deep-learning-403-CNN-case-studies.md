@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Deep Learning 4.0.1: Case studies in CNN"
+title:  "Deep Learning 4.0.3: Case studies in CNN"
 date:   2024-06-28 11:25:00
 categories: machine-learning deep-learning
 tags: CNN
-excerpt: This post shows some case studies in CNN such as LeNet-5, AlexNet, VGG, and ResNet.
+excerpt: This post shows some case studies in CNN such as LeNet-5, AlexNet, VGG, ResNet, and GoogleNet.
 mathjax: true
 use_mermaid: true
 ---
@@ -86,7 +86,15 @@ use_mermaid: true
 
 ![ResNet](/assets/images/deep_learning/403/why-resnet-works.png)
 
+# GoogleNet (Inception Networks)
+- Inception Networks are deep CNN architectures developed by Christian Szegedy et al. at Google in 2014.
+- The Inception architecture is designed to improve the efficiency and performance of deep networks by using multiple filter sizes in parallel.
+- Inception Networks consist of Inception modules that contain multiple filter sizes (1x1, 3x3, 5x5) and pooling layers.
+- The Inception architecture has been used in various applications, including image recognition and object detection.
+- Link to the paper: [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
 
+![GoogleNet](/assets/images/deep_learning/403/googlenet1.png)
+![GoogleNet](/assets/images/deep_learning/403/googlenet2.png)
 
 # References
 - [Andrew Ng's C4W2L02 Classic Network](https://youtu.be/dZVkygnKh1M?feature=shared)
