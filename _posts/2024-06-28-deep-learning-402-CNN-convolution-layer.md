@@ -22,6 +22,9 @@ The architecture of a Convolutional Neural Network (CNN) is composed of the foll
 # Illustration of CNN Architecture
 ![CNN Architecture](/assets/images/deep_learning/401/architecture.png)
 
+# Why convolutions?
+![CNN Architecture](/assets/images/deep_learning/402/why-convolutions.png)
 
 # References
 - [StatQuest: Neural Networks Part 8: Image Classification with Convolutional Neural Networks (CNNs)](https://youtu.be/HGwBXDKFk9I)
+- [Andrew Ng's C4W1L11 CNN Example](https://youtu.be/ay3zYUeuyhU?feature=shared)
