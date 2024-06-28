@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Machine Learning 0.0.3: Introduction to Computer Vision"
-date:   2024-05-28 14:00:00
-categories: machine-learning deep-learning 
-tags: neural-networks
-excerpt: This post describes how to create a simple computer vision neural network using the Fashion MNIST dataset.
+title:  "Deep Learning 3.1.1: What Is TensorFlow?"
+date:   2024-05-18 12:00:00
+categories: machine-learning deep-learning
+tags:  tensorflow
+excerpt: This post explains TensorFlow.
 mathjax: true
 use_mermaid: true
 ---
@@ -12,25 +12,11 @@ use_mermaid: true
 * content
 {:toc}
 
-# The Data: Fashion MNIST
-The Fashion MNIST dataset is a collection of 70,000 grayscale images of 10 different categories of clothing items. Each image is 28x28 pixels in size. The dataset is commonly used as a benchmark for machine learning algorithms in computer vision. The categories in the dataset are as follows:  
-- 0 T-shirt/top
-- 1 Trouser
-- 2 Pullover
-- 3 Dress
-- 4 Coat
-- 5 Sandal
-- 6 Shirt
-- 7 Sneaker
-- 8 Bag
-- 9 Ankle boot
+# Introduction
+**TensorFlow** is an open source platform for machine learning and deep learning developed by Google. It provides a comprehensive ecosystem of tools, libraries, 
+and community resources that lets researchers and developers build and deploy machine learning models at scale.
 
-Note: MNIST stands for _Modified National Institute of Standards and Technology_.
 
-<strong>A closeup of an image from the Fashion MNIST dataset:</strong>  
-![A Closeup](/assets/images/ML/003/closeup.png)  
-
-Any image in teh dataset, like the one above, can be represented as a 28x28 matrix of pixel values. Each pixel value is an integer between 0 and 255, where 0 represents black and 255 represents white.
 # TensorFlow high-level architecture
 ![TensorFlow high-level architecture](/assets/images/ML/002/tensorflow-architecture.png)
 
