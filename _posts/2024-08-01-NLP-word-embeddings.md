@@ -3,7 +3,7 @@ layout: post
 title:  "Natural Language Processing 0.0.2: Word Embeddings"
 date:   2024-08-01 8:00:00
 categories: NLP deep-learning
-tags: NLP word-embeddings
+tags: word-embeddings
 excerpt: This post discusses word embeddings and the methods of using word embeddings.
 mathjax: true
 use_mermaid: true
