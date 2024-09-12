@@ -58,6 +58,11 @@ Source: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-
 ## Convolution in 3D
 Here we want to discuss the convolution over 3D data, such as an RGB image. The convolutions over 3D is also called convolutions over _volumes_.
 The input data of each channel is convolved with the filter of the same channel. The results are then summed to produce the output of the convolution operation.
+
+Animation of Convolution-3D operation: 
+[Convolution-3D](/assets/images/ML/004/HowConvWorks.mp4)   
+
+
 ![Convolution-3D-1](/assets/images/ML/004/convolution3d-1.png)
 
 ![Convolution-3D-2](/assets/images/ML/004/convolution3d-2.png)
