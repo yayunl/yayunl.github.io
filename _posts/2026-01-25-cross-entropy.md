@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Deep Learning: Vectorization over training examples"
-date:   2026-01-16 09:50:00
+title:  "Deep Learning: binary- and categorical- cross-entropy"
+date:   2026-01-25 18:30:00
 categories: deep-learning 
-tags: fcnn vectorization
-excerpt: This post discuss vectorization over training examples in a multi-layer neural networks.
+tags: loss-function cross-entropy
+excerpt: This post discuss the loss functions for binary and multi-class cassification.
 mathjax: true
 use_mermaid: true
 ---
@@ -14,4 +14,4 @@ use_mermaid: true
 
 # Document
 
-Read the tutorial at Google doc:  [vectorization](https://docs.google.com/document/d/17PNkXnJOzbE9GMOnT8itq-aGk7r6SMWwaydA_bBbY4Y/edit?usp=sharing)
+Read the tutorial at Google doc:  [cross-entropy](https://docs.google.com/document/d/1WnOmMDtZzo85JHYevdsMbUaawH7utVjLzCq3U-KyLQM/edit?usp=sharing)
